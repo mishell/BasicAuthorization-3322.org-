@@ -8,9 +8,9 @@ import(
 )
 
 var(
-	url	= "http://members.3322.net/dyndns/update?system=dyndns&hostname=your.3322.org"
-	agent = "Mozilla/4.0 (compatible; MSIE 5.00; Windows 98"
-	auth = "Basic " + base64.StdEncoding.EncodeToString([]byte("username:password"))
+	url  	= "http://members.3322.net/dyndns/update?system=dyndns&hostname=your.3322.org"
+	agent 	= "Mozilla/4.0 (compatible; MSIE 5.00; Windows 98"
+	auth 	= "Basic " + base64.StdEncoding.EncodeToString([]byte("username:password"))
 )
 
 func main(){
