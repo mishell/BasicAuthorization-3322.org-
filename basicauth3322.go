@@ -28,8 +28,9 @@ func main(){
 	
 	resp,_ := client.Do(req)
 	defer resp.Body.Close()
-	body,_ := ioutil.ReadAll(resp.Body)	
-    fmt.Println(string(body))
+	body,_ := ioutil.ReadAll(resp.Body)
+	
+    	fmt.Println(string(body))
 
 }
 
