@@ -20,7 +20,6 @@ func main(){
 	req,err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return
-		// os.exit(0)
 	}
 	req.Header.Set("User-Agent", agent)
 	req.Header.Set("Authorization", auth)
